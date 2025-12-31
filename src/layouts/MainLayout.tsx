@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout, Menu, Button, theme, Breadcrumb } from 'antd';
 import { Outlet, useNavigate, useLocation, Link } from 'react-router-dom';
 import { LogoutOutlined, UserOutlined } from '@ant-design/icons';
-import { MENU_DATA } from '../data/menuData';
+import { MENU_DATA } from '../shared/lib/menuData';
 import { useAuthStore } from '../store/useAuthStore';
 
 const { Header, Content, Sider } = Layout;

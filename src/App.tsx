@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useAuthStore } from './store/useAuthStore';
 import MainLayout from './layouts/MainLayout';
 import LoginPage from './pages/Login';
-import { MENU_DATA } from './data/menuData';
+import { MENU_DATA } from './shared/lib/menuData';
 import { PageComponents } from './pages';
 
 const App = () => {
